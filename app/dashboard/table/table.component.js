@@ -12,6 +12,9 @@ var core_1 = require('@angular/core');
 var TableComponent = (function () {
     function TableComponent() {
     }
+    TableComponent.prototype.ngOnInit = function () {
+        $.getScript('../../../assets/js/initDataTable.js');
+    };
     TableComponent = __decorate([
         core_1.Component({
             selector: 'table-cmp',

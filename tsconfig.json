@@ -8,8 +8,5 @@
         "experimentalDecorators": true,
         "removeComments": false,
         "noImplicitAny": false
-    },
-    "compileOnSave": false,
-    "typeRoots": ["node_modules"],
-    "types": ["system"]
+    }
 }

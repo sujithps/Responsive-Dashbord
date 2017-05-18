@@ -1,19 +1,20 @@
 {
-  "name": "material-dashboard-angular2",
-  "version": "1.2.0",
+  "name": "clinic-dashboar",
+  "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+	"build": "tsc -p ./"
   },
   "license":"MIT",
   "repository": {
       "type": "git",
-      "url": "https://github.com/creativetimofficial/material-dashboard-angular.git"
+      "url": ""
   },
   "bugs":{
-      "url": "https://github.com/creativetimofficial/material-dashboard-angular/issues"
+      "url": ""
   },
     "dependencies": {
         "@angular/common": "~2.4.9",
@@ -44,6 +45,6 @@
     "@types/node": "~6.0.45",
     "concurrently": "~3.0.0",
     "lite-server": "~2.2.2",
-    "typescript": "~2.0.3"
+    "typescript": "~2.1.0"
   }
 }
